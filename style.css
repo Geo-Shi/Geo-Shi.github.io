@@ -8,6 +8,11 @@ li{
     color:black;
     font-family:'Times New Roman', Times, serif ;
 }
+img{
+    float:left;
+    width:464.4px;
+    height:662.2px;
+}
 @media screen and (max-width:600px){
    head,h1,body{
        color:white;
@@ -19,6 +24,11 @@ li{
        color: white;
        font-family: 'Times New Roman', Times, serif;
    }
+   img{
+    float:left;
+    width:216px;
+    height: 308px;
+    }
 }
 @media screen and (min-width:600px) and (max-width:1200px){
     head,h1,body{
@@ -30,5 +40,10 @@ li{
     li{
         color:cornsilk;
         font-family: 'Times New Roman', Times, serif;
+    }
+    img{
+        float:left;
+        width:324px;
+        height:462px;
     }
  }
