@@ -5,7 +5,30 @@ head,h1,body{
     background-color: bisque;
 }
 li{
-    text-size-adjust: 150%;
     color:black;
     font-family:'Times New Roman', Times, serif ;
 }
+@media screen and (max-width:600px){
+   head,h1,body{
+       color:white;
+       text-align:center;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       background-color: black;
+   }
+   li{
+       color: white;
+       font-family: 'Times New Roman', Times, serif;
+   }
+}
+@media screen and (min-width:600px) and (max-width:1200px){
+    head,h1,body{
+        color:cornsilk;
+        text-align:center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color:dimgrey;
+    }
+    li{
+        color:cornsilk;
+        font-family: 'Times New Roman', Times, serif;
+    }
+ }
